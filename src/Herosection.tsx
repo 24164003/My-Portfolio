@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Herosection = () => {
     return (
         <div className='herosection-parent'>

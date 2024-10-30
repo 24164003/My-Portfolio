@@ -1,6 +1,4 @@
-import React, { useState } from 'react'
-import aboutsectionimage from "../public/aboutsectionimage.jpeg"
-import Accordion from 'react-bootstrap/Accordion';
+import { useState } from 'react'
 
 const About = () => {
 

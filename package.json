@@ -1,9 +1,9 @@
 {
-  "name": "trial",
+  "name": "smportfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
-  "homepage": "https://24164003.github.io/My-Portfolio",
+  "homepage": "https://24164003.github.io/My-Portfolio/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

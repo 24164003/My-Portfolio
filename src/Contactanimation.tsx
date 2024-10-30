@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Contactanimation = () => {
     return (
         <div className='contact-animation-parent'>

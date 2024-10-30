@@ -1,4 +1,3 @@
-import React from 'react'
 import portfolioPDF from "../public/pdfportfolio.pdf"
 
 const Portfolio = () => {

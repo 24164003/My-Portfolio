@@ -1,7 +1,5 @@
-import React from 'react'
 
 import { Routes, Route } from 'react-router-dom';
-import { Link } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -11,10 +9,6 @@ import Contactanimation from './Contactanimation';
 import Blogheadline from './Blog/Blogheadline';
 import Blog from './Blog/Blog';
 import About from './About';
-
-import Breaker from './Breaker';
-import Breaker2 from './Breaker2';
-import Qualification from './Qualification';
 import Gallery from './Gallery';
 import Portfolio from './Portfolio';
 

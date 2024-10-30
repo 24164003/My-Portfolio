@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Blogheadline = () => {
     return (
         <div className='blog-headline-section-parent'>

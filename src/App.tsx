@@ -15,28 +15,8 @@ import Portfolio from './Portfolio';
 const App = () => {
   return (
     <div>
-      {/* <button><a href='#shonal-appi'>
-        Button for navigation
-      </a></button> */}
-      {/* Navbar */}
+      {/* Common Navbar */}
       <NavScrollExample />
-      {/* Herosection */}
-      {/* <Herosection /> */}
-      {/* Blogsection */}
-      {/* <Blogheadline /> */}
-      {/* <Blog /> */}
-      {/* Technicalsection */}
-      {/* <Technicalsection /> */}
-      {/* Breaker */}
-      {/* <Breaker /> */}
-      {/* Aboutsection */}
-      {/* <Aboutsection /> */}
-      {/* Breaker2 */}
-      {/* < Breaker2 /> */}
-      {/* Blogsection */}
-      {/* <Blogsection /> */}
-      {/* Breaker */}
-      {/* <Breaker /> */}
 
       {/* Routing */}
       <Routes>

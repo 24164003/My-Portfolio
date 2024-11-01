@@ -7,7 +7,6 @@ const About = () => {
 
   return (
     <div className='aboutsection-parent'>
-      {/* About section first child */}
 
       <div className='about-firstchild'>
         <div className='about-description'>
@@ -146,8 +145,6 @@ const About = () => {
               </div>
             </div>
           }
-
-
         </div>
       </div>
       <div className='aboutsection-secondchild'>

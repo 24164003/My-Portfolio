@@ -8,7 +8,7 @@ function NavScrollExample() {
   return (
     <Navbar expand="lg" className="navbar-parent-style">
       <div className='navbar-first-child oswald-bold'>
-        <Link to="/" className='navbar-link'>
+        <Link to="/My-Portfolio" className='navbar-link'>
           <img src={SMLogo} alt="" style={{ width: "27px", height: "auto", marginRight: '7px' }} />
           <span>SHONAL MARIA</span>
         </Link>

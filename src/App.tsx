@@ -40,7 +40,7 @@ const App = () => {
 
       {/* Routing */}
       <Routes>
-        <Route path='/' element={
+        <Route path='/My-Portfolio' element={
           <div>
             <Herosection />
             <Contactanimation />

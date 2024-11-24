@@ -1,24 +1,6 @@
-import { useState } from 'react'
 import coffeevideo from '../public/coffeevideo.mp4'
 
 const B = () => {
-
-  const prevSymbol = "<";
-  const nextSymbol = ">";
-
-  const [currentImage, setCurrentImage] = useState('gallery-section-image-1');
-
-  const switchPhotos = () => {
-    if (currentImage === 'gallery-section-image-1') {
-      setCurrentImage('gallery-section-image-3');
-    }
-    else if (currentImage === 'gallery-section-image-2') {
-      setCurrentImage('gallery-section-image-1');
-    }
-    else if (currentImage === 'gallery-section-image-3') {
-      setCurrentImage('gallery-section-image-2');
-    }
-  };
 
   return (
     // <div className='gallery-section-parent'>

@@ -137,7 +137,7 @@
 /*  */
 /*  */
 
-.blog-headline-section-parent {
+.g-headline-section-parent {
   font-family: monospace;
   font-size: 32px;
   height: 8vh;
@@ -154,7 +154,7 @@
   border-top: 10px solid black;
 }
 
-.blog-headline-section-text {
+.g-headline-section-text {
   animation: mLR 10s ease-in-out infinite;
 }
 
@@ -178,20 +178,17 @@
 /*  */
 /*  */
 
-.blog-section-parent {
+.g-section-parent {
   width: 100%;
-  height: 84vh;
   display: flex;
   background: black;
   font-family: monospace;
   color: white;
-  overflow-y: hidden;
-
 }
 
-.blog-section-div1 {
+.g-section-div1 {
   width: 33.33%;
-  height: 100%;
+  height: 88vh;
   border-right: 1px solid white;
   justify-content: center;
   align-items: center;
@@ -200,9 +197,9 @@
   cursor: pointer;
 }
 
-.blog-section-div2 {
+.g-section-div2 {
   width: 33.33%;
-  height: 100%;
+  height: 88vh;
   border-right: 1px solid white;
   justify-content: center;
   align-items: center;
@@ -211,9 +208,9 @@
   cursor: pointer;
 }
 
-.blog-section-div3 {
+.g-section-div3 {
   width: 33.33%;
-  height: 100%;
+  height: 88vh;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -221,7 +218,7 @@
   cursor: pointer;
 }
 
-.blog-section-numbers {
+.g-section-numbers {
   font-size: 50px;
 }
 
@@ -305,164 +302,32 @@
 /* Blog Section */
 /*  */
 /*  */
-
-.blogsection-parent {
-  background: rgb(20, 20, 20);
-  width: 100%;
-}
-
-.blog-1-parent {
-  display: flex;
-  width: 100%;
-  background: black;
-  height: 70vh;
-}
-
-.blog-1-image {
-  width: 40%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url('../public/blog1image.jpg');
-  background-size: cover;
-}
-
-.blog-1-content-div {
-  width: 60%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.blog-1-content {
-  width: 90%;
-  font-weight: 400;
-  font-size: 15px;
-  color: white;
-}
-
-.blog-2-parent {
-  display: flex;
-  width: 100%;
-  background: black;
-  height: 70vh;
-}
-
-.blog-2-content-div {
-  width: 60%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.blog-2-content {
-  width: 90%;
-  font-weight: 400;
-  font-size: 15px;
-  color: white;
-}
-
-.blog-2-image {
-  width: 40%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url('../public/blog2image.jpg');
-  background-size: cover;
-}
-
-.blog-3-parent {
-  display: flex;
-  width: 100%;
-  background: black;
-  height: 70vh;
-}
-
-.blog-3-content-div {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.blog-3-content {
-  width: 90%;
-  font-weight: 400;
-  font-size: 15px;
-  color: white;
-}
-
-.blog-3-image {
-  width: 47%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url('../public/blog3image.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-/*  */
-/*  */
-/* Gallery section */
-/*  */
-/*  */
-
-.gallery-section-parent {
-  display: flex;
-  height: 92vh;
+.blog-parent-section {
+  overflow-x: hidden;
   background: black;
 }
 
-.gallery-section-image-parent {
-  height: 100%;
-  display: flex;
-  width: 100%;
+.blog-video-section {
+  width: 100vw;
+  height: 50vh;
 }
 
-.gallery-section-image-1 {
-  width: 33.33%;
-  background: white;
-  background-image: url('../public/blog2image.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-.gallery-section-image-2 {
-  width: 33.33%;
-  background: white;
-  background-image: url('../public/blog1image.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-.gallery-section-image-3 {
-  width: 33.33%;
-  background: white;
-  background-image: url('../public/blog3image.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-.gallery-section-nav {
-  width: 10%;
-  background: rgb(184, 104, 117);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 30px;
+.blog-content-section {
   font-family: monospace;
-  font-weight: bolder;
-  cursor: pointer;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 75px;
+  margin-bottom: 75px;
 }
+
+.blog-content1 {
+  width: 80%;
+}
+
 
 
 

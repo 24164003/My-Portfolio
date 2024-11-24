@@ -6,10 +6,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavScrollExample from './Navbar';
 import Herosection from './Herosection';
 import Contactanimation from './Contactanimation';
-import Blogheadline from './Blog/Blogheadline';
-import Blog from './Blog/Blog';
+import Galleryheadline from './Gallery/Galleryheadline';
+import Gallery from './Gallery/Gallery';
 import About from './About';
-import Gallery from './Gallery';
+import B from './B';
 import Portfolio from './Portfolio';
 
 const App = () => {
@@ -28,14 +28,14 @@ const App = () => {
         }
         />
         <Route path='/about' element={<About />} />
-        <Route path='/blog' element={
+        <Route path='/gallery' element={
           <div>
-            <Blogheadline />
-            <Blog />
+            <Galleryheadline />
+            <Gallery />
           </div>
         } />
         <Route path='/portfolio' element={<Portfolio />} />
-       <Route path='/gallery' element={<Gallery />} />
+       <Route path='/blog' element={<B />} />
       </Routes>
 
     </div>

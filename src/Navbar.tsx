@@ -17,14 +17,14 @@ function NavScrollExample() {
         <Link to="/about" className='navbar-link'>
           <span>About</span>
         </Link>
-        <Link to="/blog" className='navbar-link'>
-          <span>Blog</span>
+        <Link to="/gallery" className='navbar-link'>
+          <span>Gallery</span>
         </Link>
         <Link to="/portfolio" className='navbar-link'>
           <span>Portolio</span>
         </Link>
-        <Link to="/gallery" className='navbar-link'>
-          <span>Gallery</span>
+        <Link to="/blog" className='navbar-link'>
+          <span>Blog</span>
         </Link>
       </div>
     </Navbar>

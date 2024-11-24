@@ -3,18 +3,6 @@ import coffeevideo from '../public/coffeevideo.mp4'
 const B = () => {
 
   return (
-    // <div className='gallery-section-parent'>
-    //   <div className="gallery-section-image-parent" style={{ background: 'white', display: 'flex' }}>
-    //     <div className='gallery-section-nav'
-    //       onClick={() => switchPhotos()}
-    //     >{prevSymbol}</div>
-    //     <div style={{ width: '90%' }} className={currentImage}>
-    //     </div>
-    //     <div className='gallery-section-nav'
-    //       onClick={() => switchPhotos()}
-    //     >{nextSymbol}</div>
-    //   </div>
-    // </div>
     <div className='blog-parent-section'>
       <video src={coffeevideo} controls className='blog-video-section'></video>
       <div className='blog-content-section'>

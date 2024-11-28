@@ -1,6 +1,10 @@
 import { useState } from 'react'
 import Modal from 'react-bootstrap/Modal';
 
+import businessImage from '../../public/blog1image.jpg'
+import aestheticImage from '../../public/blog2image.jpg'
+import passionImage from '../../public/blog3image.jpg'
+
 const Gallery = () => {
     const [mouseEnteredFirstDiv, setMouseEnteredFirstDiv] = useState(false);
     const [mouseEnteredSecondDiv, setMouseEnteredSecondDiv] = useState(false);
@@ -175,7 +179,7 @@ const Gallery = () => {
 
                 {/* Modal1 */}
                 <Modal
-                    size="xl"
+                    size="lg"
                     show={modalFirstDiv}
                     onHide={() => setModalFirstDiv(false)}
                     aria-labelledby="example-modal-sizes-title-lg"
@@ -187,10 +191,13 @@ const Gallery = () => {
                         </Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
-                        <div className='blog-1-parent'>
-                            <div className='blog-1-image'></div>
-                            <div className='blog-1-content-div'>
-                                <div className='blog-1-content'>
+                        <div className='g-parent'>
+                            <div className="g-image-div">
+                                <img src={businessImage} alt="" className='g-image' />
+                            </div>
+                            <br />
+                            <div className='g-content-div'>
+                                <div className='g-1-content'>
                                     This is a professional headshot taken with a careful balance
                                     of technical precision and aesthetic design. I selected an
                                     ambiance and setting that complement my formal attire, ensuring
@@ -220,7 +227,7 @@ const Gallery = () => {
 
                 {/* Modal2 */}
                 <Modal
-                    size="xl"
+                    size="lg"
                     show={modalSecondDiv}
                     onHide={() => setModalSecondDiv(false)}
                     aria-labelledby="example-modal-sizes-title-lg"
@@ -232,10 +239,13 @@ const Gallery = () => {
                         </Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
-                        <div className='blog-2-parent'>
-                            <div className='blog-2-content-div'>
-
-                                <div className='blog-2-content'>
+                        <div className='g-parent'>
+                            <div className="g-image-div">
+                                <img src={aestheticImage} alt="" className='g-image' />
+                            </div>
+                            <br />
+                            <div className='g-content-div'>
+                                <div className='g-2-content'>
                                     Using photography to connect with nature has been incredibly personal and
                                     enlightening for me. I can't help but want to capture pictures whenever I
                                     go for a stroll in the outdoors. The nature photographs I capture of flowers,
@@ -258,14 +268,13 @@ const Gallery = () => {
                                     a moment, and a connection to Mother Nature.
                                 </div>
                             </div>
-                            <div className='blog-2-image'></div>
                         </div>
                     </Modal.Body>
                 </Modal>
 
                 {/* Modal3 */}
                 <Modal
-                    size="xl"
+                    size="lg"
                     show={modalThirdDiv}
                     onHide={() => setModalThirdDiv(false)}
                     aria-labelledby="example-modal-sizes-title-lg"
@@ -277,9 +286,13 @@ const Gallery = () => {
                         </Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
-                        <div className='blog-3-parent'>
-                            <div className='blog-3-content-div'>
-                                <div className='blog-3-content'>
+                        <div className='g-parent'>
+                            <div className="g-image-div">
+                                <img src={passionImage} alt="" className='g-image' />
+                            </div>
+                            <br />
+                            <div className='g-content-div'>
+                                <div className='g-3-content'>
                                     This is an aesthetic shot of me on a serene, quiet urban street
                                     with my eyes closed and soft smile. The image was taken in a setting
                                     with golden hour, enhancing the simplicity and neutrality of my outfit.
@@ -297,7 +310,6 @@ const Gallery = () => {
                                     the vibrance and clarity of the image.
                                 </div>
                             </div>
-                            <div className='blog-3-image'></div>
                         </div>
                     </Modal.Body>
                 </Modal>

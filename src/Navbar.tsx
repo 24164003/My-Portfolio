@@ -26,6 +26,9 @@ function NavScrollExample() {
         <Link to="/blog" className='navbar-link'>
           <span>Blog</span>
         </Link>
+        <Link to="/posts" className='navbar-link'>
+          <span>Posts</span>
+        </Link>
       </div>
     </Navbar>
   );

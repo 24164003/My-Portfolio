@@ -11,6 +11,7 @@ import Gallery from './Gallery/Gallery';
 import About from './About';
 import B from './B';
 import Portfolio from './Portfolio';
+import Post from './Post';
 
 const App = () => {
   return (
@@ -35,7 +36,9 @@ const App = () => {
           </div>
         } />
         <Route path='/portfolio' element={<Portfolio />} />
-       <Route path='/blog' element={<B />} />
+        <Route path='/blog' element={<B />} />
+        <Route path='/posts' element={<Post />} />
+
       </Routes>
 
     </div>

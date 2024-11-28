@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import aboutImage from '../public/aboutsectionimage.jpeg'
 
 const About = () => {
 
@@ -28,7 +29,6 @@ const About = () => {
             and seamlessly blend design with technology.
           </div>
         </div>
-
         <div className='about-qualification'>
 
 

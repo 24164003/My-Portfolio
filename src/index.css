@@ -66,12 +66,12 @@
     1px -1px 10px rgb(184, 104, 117),
     -1px 1px 10px rgb(184, 104, 117),
     1px 1px 10px rgb(184, 104, 117); */
-    text-shadow:
+  text-shadow:
     -3px -3px 10px rgba(0, 0, 0, 0.1),
     1px -1px 10px rgba(0, 0, 0, 0.1),
     -1px 1px 10px rgba(0, 0, 0, 0.1),
     1px 1px 10px rgba(0, 0, 0, 0.1);
-    /* text-shadow:
+  /* text-shadow:
     -3px -3px 10px rgba(184, 104, 117, 0.1),
     1px -1px 10px rgba(184, 104, 117, 0.1),
     -1px 1px 10px rgba(184, 104, 117, 0.1),
@@ -108,8 +108,8 @@
   white-space: nowrap;
 }
 
-.margin-left-right{
-  margin: 0 10px; 
+.margin-left-right {
+  margin: 0 10px;
 }
 
 .contact-animation-text {
@@ -222,6 +222,42 @@
   font-size: 50px;
 }
 
+
+.g-parent {
+  background: black;
+  padding: 50px;
+}
+
+.g-image-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.g-image {
+  width: 300px;
+  height: auto;
+}
+ 
+.g-content-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: smaller;
+  padding: 10px;
+}
+
+.g-2-image {
+  background-image: url('../public/aboutsectionimage.jpeg');
+  background-size: cover;
+}
+
+.g-3-image {
+  background-image: url('../public/aboutsectionimage.jpeg');
+  background-size: cover;
+}
+
 /*  */
 /*  */
 /* About Section */
@@ -237,7 +273,7 @@
 }
 
 .about-firstchild {
-  width: 85%;
+  width: 100%;
   height: 100%;
 }
 
@@ -248,6 +284,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .about-description-text {
@@ -328,9 +365,6 @@
   width: 80%;
 }
 
-
-
-
 /*  */
 /*  */
 /* Font Import */
@@ -355,4 +389,204 @@
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+}
+
+/*  */
+/*  */
+/* Media Query / Responsiveness */
+/*  */
+/*  */
+
+/* Media Query for tablets (max-width: 768px) */
+@media (max-width: 768px) {
+
+  /* Navbar Section */
+  .navbar-parent-style {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 15px 0;
+    gap: 10px;
+  }
+
+  .navbar-first-child {
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+
+  .navbar-second-child {
+    width: 100%;
+    justify-content: space-around;
+    font-size: 14px;
+    flex-wrap: wrap;
+  }
+
+  /* Hero Section */
+  .herosection-parent {
+    background-position: center;
+    background-size: cover;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .herosection-text {
+    font-size: 18vw;
+    /* Adjusted for tablets */
+  }
+
+  .herosection-tagline {
+    font-size: 4vw;
+    /* Adjusted for tablets */
+    margin-top: 10px;
+  }
+
+  /* Contact Animation Section */
+  .contact-animation-parent {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  /* Blog-alert-Section */
+  .g-headline-section-parent {
+    font-size: 24px;
+    padding: 20px 0;
+    border-left-width: 20px;
+    border-right-width: 20px;
+    border-top-width: 5px;
+  }
+
+  /* Technical Section */
+  .g-section-parent {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+
+  .g-section-div1,
+  .g-section-div2,
+  .g-section-div3 {
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .g-section-div3 {
+    border-bottom: none;
+  }
+
+  .g-section-numbers {
+    font-size: 45px;
+  }
+
+  .g-1-image {
+    background-image: url('../public/aboutsectionimage.jpeg');
+    background-size: cover;
+  }
+
+  .g-2-image {
+    background-image: url('../public/aboutsectionimage.jpeg');
+    background-size: cover;
+  }
+
+  .g-3-image {
+    background-image: url('../public/aboutsectionimage.jpeg');
+    background-size: cover;
+  }
+
+  /* About Section */
+  .aboutsection-parent {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .about-firstchild,
+  .aboutsection-secondchild {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-description {
+    padding: 60px;
+    text-align: center;
+  }
+
+  .about-description-text {
+    width: 90%;
+    font-size: 14px;
+    line-height: 2;
+  }
+
+  .about-qualification-edu,
+  .about-qualification-exp {
+    font-size: large;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  /* Blog Section */
+  .blog-video-section {
+    height: auto;
+  }
+
+  .blog-content-section {
+    font-size: 14px;
+    line-height: 2;
+    text-align: center;
+    padding: 0 30px;
+  }
+
+  .blog-content1 {
+    width: 100%;
+    padding: 10px 0;
+  }
+}
+
+/* Media Query for mobile phones (max-width: 480px) */
+@media (max-width: 480px) {
+
+  /* Navbar Section */
+  .navbar-first-child {
+    font-size: 20px;
+  }
+
+  .navbar-second-child {
+    font-size: 12px;
+    gap: 5px;
+  }
+
+  /* Hero Section */
+  .herosection-text {
+    font-size: 20vw;
+    /* Smaller text size for mobile */
+  }
+
+  .herosection-tagline {
+    font-size: 5vw;
+    /* Adjusted tagline size */
+  }
+
+  /* Technical Section */
+  .g-section-div1,
+  .g-section-div2,
+  .g-section-div3 {
+    height: auto;
+    padding: 15px;
+  }
+
+  /* About Section */
+  .about-description-text {
+    width: 95%;
+    font-size: 14px;
+  }
+
+  /* Blog Section */
+  .blog-content-section {
+    font-size: 14px;
+  }
 }

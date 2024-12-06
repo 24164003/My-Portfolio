@@ -25,20 +25,18 @@ const Post = () => {
   const [description, setDescription] = useState("");
 
 
-  const handleImageChange = (event) => {
+  const handleImageChange = (event: any) => {
     setImage(event.target.files[0]);
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = (event: any) => {
     event.preventDefault();
     const formData = new FormData();
-    formData.append("postedImage", postedImage);
     formData.append("title", title);
     formData.append("description", description);
 
     console.log("Form Submitted", { title, description, postedImage });
 
-    setIsPosted(true);
   };
 
 

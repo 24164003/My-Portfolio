@@ -1,10 +1,11 @@
 import coffeevideo from '../public/coffeevideo.mp4'
+import videocoverimage from '../public/videocoverimage.jpeg'
 
 const B = () => {
 
   return (
     <div className='blog-parent-section'>
-      <video src={coffeevideo} controls className='blog-video-section'></video>
+      <video src={coffeevideo} poster={videocoverimage} controls className='blog-video-section'></video>
       <div className='blog-content-section'>
         <div className='blog-content1'>
           Our videography assignment began with four team members brainstorming ideas for an
@@ -44,7 +45,7 @@ const B = () => {
           planning to make sure we didn't repeat 4mistakes as our last shoot. This time, we took 
           care to ensure that we had a well-thought-out strategy that addressed every aspect, 
           including the plot, lighting, continuity, set design, costumes, and audio. To make sure 
-          everything went without a hitch, we meticulously planned out every shot. I was tasked with 
+          everything went without a hitch, we meticulously planned out every shot. I was tasked with
           overseeing continuity and photographic direction, ensuring that each shot flowed naturally 
           together.As the Director of Photography and Continuity, I was responsible for ensuring 
           both the visual and narrative integrity of the advertisement. This involved selecting 

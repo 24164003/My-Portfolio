@@ -12,6 +12,7 @@ import About from './About';
 import B from './B';
 import Portfolio from './Portfolio';
 import Post from './Post';
+import Projects from './Projects';
 
 const App = () => {
   return (
@@ -38,6 +39,7 @@ const App = () => {
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/blog' element={<B />} />
         <Route path='/posts' element={<Post />} />
+        <Route path='/projects' element={<Projects />} />
 
       </Routes>
 

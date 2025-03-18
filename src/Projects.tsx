@@ -5,7 +5,7 @@ import assg1photo4 from '../public/assignment1/PHOTO-2025-02-16-11-15-19.jpg';
 
 import assg2pdf from '../public/assignment2/Asiignment_2.pdf'
 
-import assg3vid from '../public/assignment 3/final.mp4'
+import assg3vid from '../public/assignmentgeneral/final.mp4'
 const Projects = () => {
     return (
         <div className="projects-container">

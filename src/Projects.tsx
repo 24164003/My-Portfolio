@@ -6,6 +6,7 @@ import assg1photo4 from '../public/assignment1/PHOTO-2025-02-16-11-15-19.jpg';
 import assg2pdf from '../public/assignment2/Asiignment_2.pdf'
 
 import assg3vid from '../public/assignmentgeneral/final.mp4'
+import assgpdf from '../public/assignment4/Modular & Interactive Sculpture (2).pdf'
 const Projects = () => {
     return (
         <div className="projects-container">
@@ -177,6 +178,11 @@ const Projects = () => {
                 ● The gameplay should repeat with the same rule set for each dice roll, ensuring that
                 each round has a new music experience depending on the rolls.
             </p>
+
+            {/* Project 4 */}
+            <h1 className="project-title">4. Oceanic Resonance</h1>
+            <embed src={assgpdf} width="100%" height="600px" />
+
 
             <div style={{ marginTop: '30px', fontSize: '1em', textAlign: 'center' }}>
                 <footer>
